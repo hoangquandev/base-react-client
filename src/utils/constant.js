@@ -1,5 +1,11 @@
 export const path = {
   PUBLIC: "/*",
   HOME: "",
-  LOGIN: "login",
+  ABOUT: "about",
+  CONTACT: "contact",
+  SERVICES: "services",
+  PROJECT: "project",
+  NEWS: "news",
+  CAREERS: "careers",
+  NOTFOUND: "*"
 };

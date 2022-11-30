@@ -1,4 +1,9 @@
-export { default as Home } from "./Home";
-export { default as Login } from "./Login";
-export { default as Header } from "./Header";
 export { default as Public } from "./Public";
+export { default as Header } from "./Header";
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Projects } from "./Projects";
+export { default as Services } from "./Services";
+export { default as Careers } from "./Careers";
+export { default as Contact } from "./Contact";
+export { default as NotFound } from "./404";

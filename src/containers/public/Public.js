@@ -1,15 +1,16 @@
-import React from "react";
-import { Outlet } from "react-router-dom";
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import Header from './Header'
+import TopBar from './TopBar'
 
 const Public = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Hello world!
-      </h1>
-      <Outlet />
-    </div>
-  );
-};
+    return (
+        <div>
+            <TopBar />
+            <Header />
+            <Outlet />
+        </div>
+    )
+}
 
-export default Public;
+export default Public
